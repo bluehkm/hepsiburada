@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3cca2f5c-4c5b-4227-9489-f00b71cfd8b3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="notFillingTheField"
+	namespace="hepsiburada">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="ea0ec62e-9540-40e5-bb06-443b1e1d982c"
+	name="hepsiburadaRepository"
+	relativepath="hepsiburadaRepository.rxrep">
+		<codegen
+		classname="hepsiburadaRepository"
+		namespace="hepsiburada">
+		</codegen>
+		<rootfolder
+		id="56b5bbbe-466b-4c6c-bdc1-be13c0197d6b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		notFillingTheField.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

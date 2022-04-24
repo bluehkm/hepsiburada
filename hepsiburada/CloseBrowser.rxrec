@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f10c4e70-fc7c-45b0-be69-e6d4a04cac91"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="hepsiburada">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="2732dd2a-9c28-4af7-8ce8-0903da5b6398">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2782a6b5-6238-4797-b8c4-6d155dc1a847"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='msedge']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="ea0ec62e-9540-40e5-bb06-443b1e1d982c"
+	name="hepsiburadaRepository"
+	relativepath="hepsiburadaRepository.rxrep">
+		<codegen
+		classname="hepsiburadaRepository"
+		namespace="hepsiburada">
+		</codegen>
+		<rootfolder
+		id="56b5bbbe-466b-4c6c-bdc1-be13c0197d6b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
