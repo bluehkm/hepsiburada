@@ -14,20 +14,26 @@
 			ref="874a8ac1-b5a0-48b4-80ae-7b38ab6de629"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="24dbd9a3-0228-4d64-bbf7-6fa919954521"
+			name="setup">
+			</setup>
 			<testcase
 			id="28827044-2805-44e0-a647-02183b3a3eb2"
 			name="Case4">
 			</testcase>
 			<teardown
+			id="2db4d044-8a08-454f-802e-b9f6efa82f4a"
+			name="teardown">
+			</teardown>
+			<teardown
 			id="2f1ec498-4694-4ea5-8c2d-c54167607974"
 			name="teardown">
 			</teardown>
-			<testmodule
-			id="423ac1db-f29d-4684-a337-f847a33be30c"
-			name="OpenBrowser"
-			ref="874a8ac1-b5a0-48b4-80ae-7b38ab6de629"
-			type="Recording">
-			</testmodule>
+			<teardown
+			id="3a0c4765-e2c6-4e08-be89-5ac3308c2964"
+			name="teardown">
+			</teardown>
 			<testcase
 			id="50656b49-71ec-459e-a0d7-49fb0dd53d3a"
 			name="hepsiburada"
@@ -83,12 +89,28 @@
 			id="6b15ca77-d725-41be-8b6b-af22fb41de8f"
 			name="Case3">
 			</testcase>
+			<teardown
+			id="6bca9c2a-c47f-474f-b2a0-df64a51b50c6"
+			name="teardown">
+			</teardown>
+			<teardown
+			id="74c08e1d-1b68-40f2-9384-d256457edd3e"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="7b930896-7c49-4e2d-86dd-ca251690e736"
 			name="login"
 			ref="6538de22-28bb-4443-9a7c-91997461ede7"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="7c14d978-f824-4fb8-9776-ddf9a2efd970"
+			name="teardown">
+			</teardown>
+			<teardown
+			id="7e3981ff-9090-4f53-a3fc-5aee703c5e27"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="8128a590-758c-4148-addd-5c53c1c9e8fb"
 			name="OpenBrowser"
@@ -129,12 +151,20 @@
 			ref="1f0a962e-3e91-4f2c-bb65-22cfccf408c2"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="a0dc6937-1c53-4cbe-93a2-ae503d2ac250"
+			name="setup">
+			</setup>
 			<testmodule
 			id="a34b9c1f-a125-46de-be4c-14cf310df4d3"
 			name="checkout"
 			ref="a0591d85-c81e-46a9-94db-881d3ac25e3d"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="a861632f-9702-410a-b1ec-338e33059de4"
+			name="setup">
+			</setup>
 			<testcase
 			id="abf831dc-ca31-4f30-9ee9-9e8b3f1894cd"
 			name="Case6">
@@ -149,6 +179,10 @@
 			id="b923ffd7-892b-40ed-9607-2878ab91e153"
 			name="Case1">
 			</testcase>
+			<setup
+			id="bbc3e42c-38f4-440e-ae54-c8f3ba93e00e"
+			name="setup">
+			</setup>
 			<testmodule
 			id="c14f5499-9422-4015-9534-f1b61a548d66"
 			name="login"
@@ -167,6 +201,10 @@
 			ref="f10c4e70-fc7c-45b0-be69-e6d4a04cac91"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="c7c44dca-2b25-4c2a-8d1a-5c3dbc7b94f5"
+			name="setup">
+			</setup>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -207,6 +245,16 @@
 			id="eb3c6be3-3c3c-404f-8a50-65d486f55523"
 			name="Case7">
 			</testcase>
+			<testmodule
+			id="eb4dfd49-fcb1-4c1c-b6c4-a73ac6aa4008"
+			name="OpenBrowser"
+			ref="874a8ac1-b5a0-48b4-80ae-7b38ab6de629"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="ee385be8-3f33-44e3-91d2-7687bd3796d6"
+			name="setup">
+			</setup>
 			<testcase
 			id="f431da5a-45c7-4e85-a161-cadd4be9529e"
 			name="Case5">
@@ -252,42 +300,62 @@
 					<testcase
 					id="898bc542-cded-4bc0-bd4b-84a68ae56208"
 					name="Case2">
-						<testmodule
-						id="423ac1db-f29d-4684-a337-f847a33be30c"
-						name="OpenBrowser">
-						</testmodule>
+						<setup
+						id="ee385be8-3f33-44e3-91d2-7687bd3796d6"
+						name="setup">
+							<testmodule
+							id="eb4dfd49-fcb1-4c1c-b6c4-a73ac6aa4008"
+							name="OpenBrowser">
+							</testmodule>
+						</setup>
 						<testmodule
 						id="f6abc13b-1a6d-4e7a-bfa3-f9648cbd0c8c"
 						name="notFillingTheField">
 						</testmodule>
-						<testmodule
-						id="d7fc2279-df90-4da5-8921-9ce378ce815c"
-						name="CloseBrowser">
-						</testmodule>
+						<teardown
+						id="6bca9c2a-c47f-474f-b2a0-df64a51b50c6"
+						name="teardown">
+							<testmodule
+							id="d7fc2279-df90-4da5-8921-9ce378ce815c"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="6b15ca77-d725-41be-8b6b-af22fb41de8f"
 					name="Case3">
-						<testmodule
-						id="5ca77d11-7f64-47d3-b676-272aeded8a02"
-						name="OpenBrowser">
-						</testmodule>
+						<setup
+						id="a861632f-9702-410a-b1ec-338e33059de4"
+						name="setup">
+							<testmodule
+							id="5ca77d11-7f64-47d3-b676-272aeded8a02"
+							name="OpenBrowser">
+							</testmodule>
+						</setup>
 						<testmodule
 						id="9da0fe5e-4eea-4bda-941d-93b8999ba463"
 						name="loginError">
 						</testmodule>
-						<testmodule
-						id="5b33e4ed-d333-4df7-84dc-e52c943005f9"
-						name="CloseBrowser">
-						</testmodule>
+						<teardown
+						id="2db4d044-8a08-454f-802e-b9f6efa82f4a"
+						name="teardown">
+							<testmodule
+							id="5b33e4ed-d333-4df7-84dc-e52c943005f9"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="28827044-2805-44e0-a647-02183b3a3eb2"
 					name="Case4">
-						<testmodule
-						id="5fa86548-35d2-45f7-adce-940c5f4b7d50"
-						name="OpenBrowser">
-						</testmodule>
+						<setup
+						id="c7c44dca-2b25-4c2a-8d1a-5c3dbc7b94f5"
+						name="setup">
+							<testmodule
+							id="5fa86548-35d2-45f7-adce-940c5f4b7d50"
+							name="OpenBrowser">
+							</testmodule>
+						</setup>
 						<testmodule
 						id="64f35165-e337-495b-b082-6643f2e76dcf"
 						name="login">
@@ -296,18 +364,26 @@
 						id="88cfb3d7-cda8-45ed-8833-ea4796d2a2ca"
 						name="addToCart">
 						</testmodule>
-						<testmodule
-						id="97987864-bd9a-411e-a9d2-e7e81a53fa3c"
-						name="CloseBrowser">
-						</testmodule>
+						<teardown
+						id="3a0c4765-e2c6-4e08-be89-5ac3308c2964"
+						name="teardown">
+							<testmodule
+							id="97987864-bd9a-411e-a9d2-e7e81a53fa3c"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="f431da5a-45c7-4e85-a161-cadd4be9529e"
 					name="Case5">
-						<testmodule
-						id="51e4c029-9500-43a7-ada1-4cb8fe4e37bd"
-						name="OpenBrowser">
-						</testmodule>
+						<setup
+						id="a0dc6937-1c53-4cbe-93a2-ae503d2ac250"
+						name="setup">
+							<testmodule
+							id="51e4c029-9500-43a7-ada1-4cb8fe4e37bd"
+							name="OpenBrowser">
+							</testmodule>
+						</setup>
 						<testmodule
 						id="c14f5499-9422-4015-9534-f1b61a548d66"
 						name="login">
@@ -316,18 +392,26 @@
 						id="62578d08-6ea3-48df-bee6-8d87f51abfb7"
 						name="addToWish">
 						</testmodule>
-						<testmodule
-						id="b8c53161-5def-46b5-befa-aad9ff24868b"
-						name="CloseBrowser">
-						</testmodule>
+						<teardown
+						id="7e3981ff-9090-4f53-a3fc-5aee703c5e27"
+						name="teardown">
+							<testmodule
+							id="b8c53161-5def-46b5-befa-aad9ff24868b"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="abf831dc-ca31-4f30-9ee9-9e8b3f1894cd"
 					name="Case6">
-						<testmodule
-						id="5c0742f7-7cd3-4c4a-bc58-fce9db8e71b3"
-						name="OpenBrowser">
-						</testmodule>
+						<setup
+						id="bbc3e42c-38f4-440e-ae54-c8f3ba93e00e"
+						name="setup">
+							<testmodule
+							id="5c0742f7-7cd3-4c4a-bc58-fce9db8e71b3"
+							name="OpenBrowser">
+							</testmodule>
+						</setup>
 						<testmodule
 						id="dee675f9-9ee1-4ef9-b98a-c8eacd398fad"
 						name="login">
@@ -336,18 +420,26 @@
 						id="a34b9c1f-a125-46de-be4c-14cf310df4d3"
 						name="checkout">
 						</testmodule>
-						<testmodule
-						id="c5c2f466-6c2b-4993-a0f4-2d09a7e9df29"
-						name="CloseBrowser">
-						</testmodule>
+						<teardown
+						id="74c08e1d-1b68-40f2-9384-d256457edd3e"
+						name="teardown">
+							<testmodule
+							id="c5c2f466-6c2b-4993-a0f4-2d09a7e9df29"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 					<testcase
 					id="eb3c6be3-3c3c-404f-8a50-65d486f55523"
 					name="Case7">
-						<testmodule
-						id="8128a590-758c-4148-addd-5c53c1c9e8fb"
-						name="OpenBrowser">
-						</testmodule>
+						<setup
+						id="24dbd9a3-0228-4d64-bbf7-6fa919954521"
+						name="setup">
+							<testmodule
+							id="8128a590-758c-4148-addd-5c53c1c9e8fb"
+							name="OpenBrowser">
+							</testmodule>
+						</setup>
 						<testmodule
 						id="7b930896-7c49-4e2d-86dd-ca251690e736"
 						name="login">
@@ -356,10 +448,14 @@
 						id="07516c92-c036-4e17-8d6a-66bff6163fa3"
 						name="Signout">
 						</testmodule>
-						<testmodule
-						id="83a401ac-e584-4a52-959e-7dbdddde92fe"
-						name="CloseBrowser">
-						</testmodule>
+						<teardown
+						id="7c14d978-f824-4fb8-9776-ddf9a2efd970"
+						name="teardown">
+							<testmodule
+							id="83a401ac-e584-4a52-959e-7dbdddde92fe"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
 					</testcase>
 				</testcase>
 			</testsuite>
